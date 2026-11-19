@@ -13,6 +13,7 @@ I am building practical skills in defensive security, networking, Linux, virtual
 | [01. SOC Fundamentals](01-soc-fundamentals/README.md) | Cybersecurity introduction and SOC operations | CIA triad, threat/vulnerability/risk, SOC purpose, analyst tiers, Red Team vs Blue Team | Completed |
 | [02. Networking for Defenders](02-networking-for-defenders/README.md) | Networking concepts used in defensive security | OSI model, protocols, common ports, DNS resolution, normal vs suspicious traffic | Completed |
 | [03. Kali Linux VM Recovery](03-virtualization-and-lab-setup/README.md) | VirtualBox troubleshooting and recovery of an existing Kali Linux VM | Virtual machine configuration corruption, host disk-space exhaustion, recovery using the backup configuration file, storage cleanup, preventive measures | Completed |
+| [04. Linux Basics and Log Analysis](04-logs-and-analysis/README.md) | Linux command-line fundamentals and log analysis | `/var/log`, `syslog`, authentication logs, `grep`, `tail`, successful and failed SSH events | Completed |
 
 ## Repository Structure
 
@@ -23,7 +24,9 @@ SOC-analyst-Foundation/
 │   └── README.md
 ├── 02-networking-for-defenders/
 │   └── README.md
-└── 03-virtualization-and-lab-setup/
+├── 03-virtualization-and-lab-setup/
+│   └── README.md
+└── 04-logs-and-analysis/
     └── README.md
 ```
 
@@ -36,6 +39,7 @@ Supporting task reports and evidence are organized in their corresponding folder
 - Kali Linux
 - Windows Command Prompt and PowerShell
 - WHOIS and DNS lookup utilities
+- Linux shell utilities: `ls`, `cd`, `cat`, `tail`, `grep`, and `journalctl`
 
 ## Completed Work
 
@@ -45,6 +49,7 @@ Supporting task reports and evidence are organized in their corresponding folder
 - Studied the OSI model, common network protocols and ports, DNS resolution, and examples of normal and suspicious traffic.
 - Investigated and recovered an inaccessible Kali Linux virtual machine after host disk-space exhaustion caused its primary VirtualBox configuration file to become empty.
 - Documented the root cause, recovery steps, storage cleanup, and preventive measures.
+- Practiced Linux navigation and log inspection, reviewed common Linux log locations, and filtered successful and failed authentication events in sample SSH-style logs using `grep`.
 
 ## Scope and Responsible Use
 
