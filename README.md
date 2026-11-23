@@ -15,6 +15,7 @@ I am building practical skills in defensive security, networking, Linux, virtual
 | [03. Kali Linux VM Recovery](03-virtualization-and-lab-setup/README.md) | VirtualBox troubleshooting and recovery of an existing Kali Linux VM | Virtual machine configuration corruption, host disk-space exhaustion, recovery using the backup configuration file, storage cleanup, preventive measures | Completed |
 | [04. Linux Basics and Log Analysis](04-logs-and-analysis/README.md) | Linux command-line fundamentals and log analysis | `/var/log`, `syslog`, authentication logs, `grep`, `tail`, successful and failed SSH events | Completed |
 | [05. Windows Logs & Event Viewer](05-windows-logs-event-viewer/README.md) | Windows Security log investigation | Event Viewer, Event IDs 4624 and 4625, custom views, authentication event details | Completed |
+| [06. Understanding Logs and Log Analysis](06-understanding-logs-and-log-analysis/README.md) | Log sources, Apache access-log analysis, suspicious activity, and baselines | Log types, Apache fields, SQL injection indicators, HTTP status codes, baseline analysis | Completed |
 
 ## Repository Structure
 
@@ -29,7 +30,9 @@ SOC-analyst-Foundation/
 │   └── README.md
 ├── 04-logs-and-analysis/
 │   └── README.md
-└── 05-windows-logs-event-viewer/
+├── 05-windows-logs-event-viewer/
+│   └── README.md
+└── 06-understanding-logs-and-log-analysis/
     └── README.md
 ```
 
@@ -55,6 +58,7 @@ Supporting task reports and evidence are organized in their corresponding folder
 - Documented the root cause, recovery steps, storage cleanup, and preventive measures.
 - Practiced Linux navigation and log inspection, reviewed common Linux log locations, and filtered successful and failed authentication events in sample SSH-style logs using `grep`.
 - Practiced Windows Event Viewer navigation, created custom views for authentication Event IDs, and reviewed the fields recorded in a failed-logon investigation.
+- Practiced Windows investigation and logrotate configuration review on TryHackMe, documented common log sources, analyzed Apache access-log fields, identified SQL-injection indicators, and explained baseline-based anomaly detection.
 
 ## Scope and Responsible Use
 
